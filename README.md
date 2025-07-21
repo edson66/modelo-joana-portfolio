@@ -1,8 +1,8 @@
-Portfólio - Projeto Alura
-Bem-vindo ao repositório do meu projeto de portfólio! Este espaço foi desenvolvido como parte de um curso da Alura para aplicar e demonstrar minhas habilidades em desenvolvimento Front-end.
+Portfólio
+Bem-vindo ao repositório do meu projeto de portfólio! Este espaço foi desenvolvido como parte de um experimento para aplicar e demonstrar minhas habilidades em desenvolvimento Front-end.
 
 ✒️ Sobre o Projeto
-Este projeto é o resultado de um exercício prático do curso da Alura, onde o objetivo era construir um portfólio web de duas páginas. O layout foi desenvolvido com foco em um design moderno, utilizando HTML semântico e CSS estilizado para garantir uma experiência de usuário agradável e intuitiva.
+Este projeto é o resultado de um exercício prático , onde o objetivo era construir um portfólio web de duas páginas. O layout foi desenvolvido com foco em um design moderno, utilizando HTML semântico e CSS estilizado para garantir uma experiência de usuário agradável e intuitiva.
 
 A persona "Joana Santos" e seus textos foram utilizados como um modelo fornecido pelo curso para a construção da interface.
 
