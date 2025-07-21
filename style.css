@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --cor_primaria:black;
+  --cor_secundaria:white;
+  --cor_terciaria:#22D4FD;
+  --cor-hover:#272727;
+
+  --fonte_titulo:"Krona One", sans-serif;
+  --fonte_texto:'Montserrat',sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.cabecalho__menu{
+  display: flex;
+  gap: 80px;
+  padding: 3% 16%;
+}
+
+.cabecalho__menu__link{
+  font-family: var(--fonte_texto);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--cor_terciaria);
+  text-decoration: none;
+}
+
+body{
+  /* height: 100vh; */
+  box-sizing: border-box;
+  background-color: var(--cor_primaria);
+  color: var(--cor_secundaria);
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4% 16%;
+}
+
+.titulo_left{
+    text-align: left;
+}
+
+.titulo_destaque{
+  color:var(--cor_terciaria);
+}
+
+footer{
+  padding: 24px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--cor_primaria);
+  font-family: var(--fonte_texto);
+  background-color: var(--cor_terciaria);
+}
+
+.flex__conteudo{
+  width:615px ;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.flex__conteudo__links{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  
+}
+
+.flex__conteudo__links__link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border: 2px solid var(--cor_terciaria);
+  width: 378px;
+  text-decoration: none;
+  padding: 16px 0;
+  font-family: var(--fonte_texto);
+  font-weight: 600;
+  color: var(--cor_secundaria);
+  border-radius: 8px;
+  text-align: center;
+  font-size: 22px;
+  
+}
+.flex__conteudo__links__link:hover{
+  background-color: var(--cor-hover);
+  color: var(--cor_terciaria);
+}
+
+.flex__conteudo__titulo{
+  font-size: 36px;
+  font-family: var(--fonte_titulo);
+}
+
+.flex__conteudo__text{
+  font-size: 24px;
+  font-family: var(--fonte_texto);
+}
+.flex__conteudo__links__text{
+  font-family: var(--fonte_titulo);
+  font-weight: 400;
+  font-size: 24px;
+}
